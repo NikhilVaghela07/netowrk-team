@@ -8,6 +8,6 @@ variable "public_ips" {
 }
 
 output "public_ips" {
-  description = "ALl IPs"
+  description = "All public IP addresses"
   value = var.public_ips
 }
