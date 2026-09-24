@@ -7,7 +7,7 @@ variable "public_ips" {
   default = ["8.8.8.8", "1.1.1.1"]
 }
 
-output "public_ips" {
+output "public" {
   description = "All public IP addresses"
   value = var.public_ips
 }
