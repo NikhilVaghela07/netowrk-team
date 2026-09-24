@@ -1,0 +1,9 @@
+provider "aws" {
+  type = list(string)
+  default = ["8.8.8.8", "1.1.1.1"]
+}
+
+output "public_ips" {
+  description = "ALl IPs"
+  value = var.public_ips
+}
